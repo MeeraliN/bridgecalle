@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "call-e": {
+      "command": "node",
+      "args": ["src/cli/call-e-cli.js"],
+      "env": {
+        "CALLE_API_KEY": "calle_live_sk_your_api_key_here",
+        "CALLE_MCP_ENDPOINT": "https://mcp.heycall-e.com/v1"
+      }
+    }
+  }
+}

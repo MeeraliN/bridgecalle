@@ -1,0 +1,31 @@
+{
+  "name": "bridgecalle",
+  "version": "1.0.0",
+  "description": "BridgeCalle - Active Listening Voice Companion for Seniors built with CALL-E AI Agent platform",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "node --watch src/server/index.js",
+    "call-e:test": "node src/server/calle.js",
+    "call-e:cli": "node src/cli/call-e-cli.js"
+  },
+  "bin": {
+    "bridgecalle": "./src/cli/call-e-cli.js"
+  },
+  "keywords": [
+    "call-e",
+    "ai-agent",
+    "voice-companion",
+    "elderly-care",
+    "active-listening",
+    "family-digest",
+    "hackathon"
+  ],
+  "author": "BridgeCalle Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

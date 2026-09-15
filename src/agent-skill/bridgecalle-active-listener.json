@@ -1,0 +1,19 @@
+{
+  "name": "bridgecalle-active-listener",
+  "title": "BridgeCalle — Active Listening Elder Companion",
+  "version": "1.0.0",
+  "description": "An empathy-first CALL-E voice agent skill that combats senior loneliness through 90/10 active listening and sends automated family digests.",
+  "category": "agent-skills",
+  "keywords": ["calle", "voice-agent", "active-listening", "eldercare", "family-digest", "loneliness"],
+  "call_e_config": {
+    "agent_type": "outbound_active_listener",
+    "talking_ratio": {
+      "user_target_percent": 90,
+      "agent_target_percent": 10
+    },
+    "voice_settings": {
+      "speaking_rate": 0.88,
+      "tone": "empathetic_warm"
+    }
+  }
+}
